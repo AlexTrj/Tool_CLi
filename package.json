@@ -19,5 +19,8 @@
   "homepage": "https://github.com/AlexTrj/Tool_CLi#readme",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "bin":{
+    "task" : "./src/commands.js"
   }
 }
